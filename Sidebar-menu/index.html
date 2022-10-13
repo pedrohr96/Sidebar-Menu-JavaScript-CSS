@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font-awesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="font-awesome/css/solid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons.css" />
+
+  <script type="text/javascript" src="js/jquery/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery/jquery-ui.min.js"></script>
+  <!-- Boxicons CDN Link -->
+  <link rel='stylesheet' href='css/boxicons.min.css'>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="header-sidebar">
+      <div class="logo-details">
+        <i class='icon'><img src="img/Logo-ProdWin-branco.png"></i>
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+    </div>
+    <ul class="nav-list">
+      <li class="icon-search">
+        <i class='bx bx-search'></i>
+        <input type="text" placeholder="Search...">
+        <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bi bi-grid"></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+        <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bi bi-clipboard"></i>
+          <span class="links_name">Cadastros</span>
+        </a>
+        <span class="tooltip">Cadastros</span>
+      </li>
+      <li>
+        <a class="btn-expand" href="#">
+          <i class='bx bx-line-chart'></i>
+          <span class="links_name">CEP</span>
+          <i class="bi bi-chevron-down chevron-down"></i>
+        </a>
+        <span class="tooltip">CEP</span>
+        <ul class="submenu">
+          <li><a href="">Agenda inspeção</a></li>
+          <li><a href="">CEP Exportação</a></li>
+          <li><a href="">CEP Inspeções</a></li>
+          <li><a href="">CEP Online Gerencial</a></li>
+          <li>
+            <a class="btn-expand-2" href="#">CEP Relatórios
+              <i class="bi bi-chevron-down chevron-down-sub2"></i>
+            </a>            
+            <ul class="submenu-2">
+              <li><a href="#">CEP Cartas</a></li>
+              <li><a href="#">CEP por atributo</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Plano Amostragem</a></li>
+          <li><a href="#">CEP Configurações</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bi bi-clipboard-check"></i>
+          <span class="links_name">Check List</span>
+        </a>
+        <span class="tooltip">Check List</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-bar-chart-alt-2'></i>
+          <span class="links_name">Gráfico</span>
+        </a>
+        <span class="tooltip">Gráfico</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="links_name">Histórico</span>
+        </a>
+        <span class="tooltip">Histórico</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bi bi-columns-gap"></i>
+          <span class="links_name">Layout</span>
+        </a>
+        <span class="tooltip">Layout</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bi bi-display"></i>
+          <span class="links_name">Monitor Online</span>
+        </a>
+        <span class="tooltip">Monitor Online</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bi bi-file-earmark-text"></i>
+          <span class="links_name">Relatórios</span>
+        </a>
+        <span class="tooltip">Relatórios</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-bars-staggered"></i>
+          <span class="links_name">Timeline</span>
+        </a>
+        <span class="tooltip">Timeline</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-tv'></i>
+          <span class="links_name">TV</span>
+        </a>
+        <span class="tooltip">TV</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2'></i>
+          <span class="links_name">Analytics</span>
+        </a>
+        <span class="tooltip">Analytics</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">Setting</span>
+        </a>
+        <span class="tooltip">Setting</span>
+      </li>
+      <li class="profile">
+        <div class="profile-details">
+          <img src="img/profile.png" alt="profileImg">
+          <div class="name_job">
+            <div class="name">Pedro Rodrigues</div>
+            <div class="job">Desenvolvedor</div>
+          </div>
+        </div>
+        <i class='bx bx-log-out' id="log_out"></i>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <header class="header">
+      <h1>Dashboard</h1>
+      <div class="profile-details">
+        <img src="img/profile.png" alt="profileImg">
+        <div class="name_job">
+          <div class="name">Pedro Rodrigues</div>
+        </div>
+        <i class='bx bx-chevron-down'></i>
+      </div>
+    </header>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
